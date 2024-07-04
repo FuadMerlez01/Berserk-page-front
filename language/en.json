@@ -7,7 +7,14 @@
     },
     "banner": {
         "disponible": "Available now on all platforms!",
-        "boton": "Buy now!"
+        "boton": "Buy now!",
+        "muestra": "Look at our different platforms"
+    },
+    "carrito": {
+        "lista": "Shopping list",
+        "error": "Selection error",
+        "mensaje": "At the moment we do not have products in our warehouse, try to buy later",
+        "boton":"Pay Products"
     },
     "seccion1": {
         "globo1": "IS IT LIKE THE HAND OF GOD HOVERING ABOVE?",
