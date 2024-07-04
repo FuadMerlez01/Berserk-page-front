@@ -184,6 +184,36 @@ ul {
     }
 }
 
+.button{
+    display: block;
+    margin: 50px auto;
+    padding: 8px 32px;
+    background-color: #000000;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: .1s all linear;
+    font-family: "Agdasima", sans-serif;
+    &:hover{
+        background-color: darken(#000000, 10%);
+    }
+}
+
+.alert{
+    display: none;
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+    padding: 32px 64px !important;
+    background-color: #fbe8e4 !important;
+    border: 1px solid #dc2500 !important;
+    font-family: "Agdasima", sans-serif;
+    border-radius: 8px !important;
+    color: #dc2500 !important;
+}
+
 body{
     margin: 0;
     height: 100%;
@@ -265,7 +295,7 @@ body{
 }
 
 /* Estilos base para las imágenes */
-img.twitter, img.instagram, img.discord, img.facebook, img.reddit, img.translate {
+img.twitter, img.instagram, img.discord, img.facebook, img.reddit, img.translate, img.carro{
     max-width: 30px;
     height: auto;
     transition: filter 1.5s ease; /* Transición suave para el cambio de color */
