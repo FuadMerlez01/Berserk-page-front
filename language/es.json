@@ -7,7 +7,14 @@
     },
     "banner": {
         "disponible": "¡Ya disponible en todas las plataformas!",
-        "boton": "Comprar ahora!"
+        "boton": "Comprar ahora!",
+        "muestra": "Mira nuestras Diferentes plataformas"
+    },
+    "carrito": {
+        "lista": "Lista de Compras",
+        "error": "Error de seleccion",
+        "mensaje": "De momento no tenemos productos en nuestra bodega, trata de comprar mas tarde",
+        "boton":"Pagar Productos"
     },
     "seccion1": {
         "globo1": "¿ES COMO LA MANO DE DIOS FLOTANDO ARRIBA?",
@@ -33,4 +40,3 @@
         "cont": "Contacto"
     }
 }
-    
