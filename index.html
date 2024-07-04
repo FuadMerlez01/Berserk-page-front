@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Berserk Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+    <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+        <header>
+            <!-- Navegación y logo -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav nav-underline">
+                            <li class="nav-item"><a data-section="navegador" data-value="inicio" class="nav-link active" aria-current="page" href="#">HOME</a></li>
+                            <li class="nav-item"><a data-section="navegador" data-value="noticias" class="nav-link" href="#">NEWS</a></li>
+                            <li class="nav-item"><a data-section="navegador" data-value="catalogo" class="nav-link" href="#">CATALOGUE</a></li>
+                            <li class="nav-item"><a data-section="navegador" data-value="nosotros" class="nav-link" href="#">ABOUT US</a></li>
+                        </ul>
+                    </div>
+                    <!-- Iconos -->
+                    <ul class="nav justify-content-end">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img class="translate" src="img/translate.png" alt="translate">
+                            </button>
+                            <ul class="dropdown-menu" id="idiomas">
+                                <li><a class="dropdown-item" style="background: black;" data-language="es" href="#">Español</a></li>
+                                <li><a class="dropdown-item"  style="background: black;" data-language="en" href="#">Inglés</a></li>
+                            </ul>
+                        </div>
+                        <li class="nav-item"><a class="nav-link" href="#"><img class="twitter" src="img/Twitter.png" alt="Twitter"></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><img class="instagram" src="img/instagram.png" alt="Instagram"></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><img class="discord" src="img/discord.png" alt="Discord"></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><img class="facebook" src="img/facebook.png" alt="Facebook"></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><img class="reddit" src="img/reddit.png" alt="Reddit"></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container-fluid">
+            <!-- Entrada banner -->
+            <div class="row">
+                <div class="col-md-12 px-0 mx-auto banner">
+                    <div class="row">
+                        <img class="img-fluid" src="img/fondo01.png" alt="fondo01">
+                        <div class="col-md-6 seccion01">
+                            <h2>KENTARO MIURA</h2> 
+                            <img class="berserk01" src="img/berserk01.png" alt="berserk01">
+                            <h4 data-section="banner" data-value="disponible">Available now on all platforms!</h4>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary btn btn-dark border border-danger" data-section="banner" data-value="boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Buy now!
+                            </button>
+                            <div class="portables">
+                                <img class="img-fluid" src="img/play.png" alt="">
+                                <h4>PS5. | PS4.</h4>
+                                <img class="img-fluid" src="img/xbox.png" alt="">
+                                <h4>XBOX SERIES X | S.</h4>
+                                <h3>PC</h3>
+                                <img class="img-fluid" src="img/switch.png" alt="">
+                                <div class="col-md-1"><p>NINTENDO SWITCH</p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="5" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content card">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" style="color: white;" id="exampleModalLabel">Mira nuestras Diferentes plataformas</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="col-12">
+                        <a href="https://store.playstation.com/es-sv/product/UP4108-CUSA07478_00-SLAYERGAME000000"><img class="img-fluid" src="img/play.png" alt="play"></a>
+                        <h4>PS5. | PS4.</h4>
+                    </div>
+                    <div class="col-12">
+                        <a href="https://www.xbox.com/es-cl/games/store/the-first-berserker-khazan/9pkjwmbbgk38"><img class="img-fluid" src="img/xbox.png" alt="xbox"></a>
+                        <h4>XBOX SERIES X | S.</h4>
+                    </div>
+                    <div class="col-12">
+                        <a href="https://store.steampowered.com/app/502280/BERSERK_and_the_Band_of_the_Hawk/"><h3 style="color: white;">PC</h3></a>
+                        <div class="col-md-5"><p>ESCRITORIO</p></div>
+                    </div>
+                    <div class="col-12">
+                        <a href="https://www.nintendo.com/es-cl/store/products/zombie-army-4-berserker-boris-bundle-switch/"><img class="img-fluid" src="img/switch.png" alt=""></a>
+                        <div class="col-md-5"><p>NINTENDO SWITCH</p></div>
+                    </div>   
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <img class="img-fluid px-0 separador" src="img/linea_negra.png" alt="linea_negra">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 px-0 mx-auto mano">
+                    <div class="row">
+                        <img src="img/mano.jpg" alt="mano">
+                        <div class="textos">
+                            <div class="col-md-11">
+                                <div class="row">
+                                    <div class="col-md-1 globo1">
+                                        <h4 data-section="seccion1" data-value="globo1">IS IT LIKE THE HAND OF GOD HOVERING ABOVE?</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-11">
+                                <div class="row gy-5 py-5">
+                                    <div class="col-md-7"></div>
+                                    <div class="col-md-2 globo2">
+                                        <h4 data-section="seccion1" data-value="globo2">IS THIS WORLD, HUMAN KIND'S DESTINY, CONTROLLED BY SOME TRANSCENDENT ENTITY OR LAW……?</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-11">
+                                <div class="row gy-5 py-5">
+                                    <div class="col-md-2 globo3">
+                                        <h4 data-section="seccion1" data-value="globo3">AT LEAST, IT'S TRUE THAT MAN HAS NO CONTROL, EVEN OVER HIS OWN WILL.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <img class="img-fluid px-0 separador2" src="img/linea_negra.png" alt="linea_negra">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="col-md-12 px-0">
+                <div class="row">
+                    <div class="embed-container video">
+                        <iframe src="media/berserk-trailer.mp4" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 px-0 mx-auto atardecer">
+                    <div class="row">
+                        <img class="img-fluid" src="img/fondo02.png" alt="fondo02">
+                        <div class="huevo">
+                            <div class="col-md-12 mx-auto">
+                                <div class="huevo2">
+                                    <img class="img-fluid behelit01" src="img/behelit01.png" alt="behelit01">
+                                    <img class="img-fluid behelit02" src="img/behelit02.png" alt="behelit02">
+                                    <img class="img-fluid behelit03" src="img/behelit03.png" alt="behelit03">
+                                    <img class="img-fluid behelit04" src="img/behelit04.png" alt="behelit04">
+                                    <div class="col-md-4 mx-auto">
+                                        <div class="row">
+                                            <h4 data-section="seccion2" data-value="maldicion" class="maldicion">"He who bears the egg of the conquering king will gain all that he desires at the cost of his body and blood"</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <img class="img-fluid px-0 separador3" src="img/linea_negra.png" alt="linea_negra">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 px-0 mx-auto imagenes">
+                    <div class="row">
+                        <div class="logo2">
+                            <img class="img-fluid" src="img/logo2.png" alt="logo2">
+                        </div>
+                        <div class="col-md-10 mx-auto galeria">
+                            <a href="img/imagen01.jpg" data-lightbox="mygallery"><img src="img/imagen01.jpg" alt="imagen01"></a>
+                            <a href="img/imagen02.png" data-lightbox="mygallery"><img src="img/imagen02.png" alt="imagen02"></a>
+                            <a href="img/imagen03.jpg" data-lightbox="mygallery"><img src="img/imagen03.jpg" alt="imagen03"></a>
+                            <a href="img/imagen04.png" data-lightbox="mygallery"><img src="img/imagen04.png" alt="imagen04"></a>
+                            <a href="img/imagen05.jpg" data-lightbox="mygallery"><img src="img/imagen05.jpg" alt="imagen05"></a>
+                            <a href="img/imagen06.jpg" data-lightbox="mygallery"><img src="img/imagen06.jpg" alt="imagen06"></a>
+                            <a href="img/imagen07.png" data-lightbox="mygallery"><img src="img/imagen07.png" alt="imagen07"></a>
+                            <a href="img/imagen08.png" data-lightbox="mygallery"><img src="img/imagen08.png" alt="imagen08"></a>
+                            <a href="img/imagen09.jpg" data-lightbox="mygallery"><img src="img/imagen09.jpg" alt="imagen09"></a>
+                            <a href="img/imagen10.png" data-lightbox="mygallery"><img src="img/imagen10.png" alt="imagen10"></a>
+                            <a href="img/imagen11.jpg" data-lightbox="mygallery"><img src="img/imagen11.jpg" alt="imagen11"></a>
+                            <a href="img/imagen12.png" data-lightbox="mygallery"><img src="img/imagen12.png" alt="imagen12"></a>
+                            <a href="img/imagen13.png" data-lightbox="mygallery"><img src="img/imagen13.png" alt="imagen13"></a>
+                            <a href="img/imagen14.png" data-lightbox="mygallery"><img src="img/imagen14.png" alt="imagen14"></a>
+                            <a href="img/imagen15.png" data-lightbox="mygallery"><img src="img/imagen15.png" alt="imagen15"></a>
+                            <a href="img/imagen16.png" data-lightbox="mygallery"><img src="img/imagen16.png" alt="imagen16"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 mx-auto px-0 personajes">
+                    <div class="row">
+                        <img src="img/fondo03.png" alt="fondo03">
+                        <div class="principales">
+                            <div class="row">
+                                <div class="col-md-3 mx-auto">
+                                    <h4>Guts</h4>
+                                    <p data-section="seccion3" data-value="gust" class="border-top border-secondary-subtle">Guts is the main protagonist of Berserk and the Band of the Hawk and who you will play as for the majority of Story Mode. He initially wields a large sword, but eventually moves on to wielding an even larger sword, the Dragonslayer, once he becomes the "Black Swordsman".</p>
+                                </div>
+                                <div class="col-md-3 mx-auto">
+                                    <img src="img/gust.png" alt="Guts">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 mx-auto">
+                                    <img src="img/griffts.png" alt="Griffith">
+                                </div>
+                                <div class="col-md-3 mx-auto">
+                                    <h4>Griffith</h4>
+                                    <p data-section="seccion3" data-value="griffith" class="border-top border-secondary-subtle">Unlock Griffith by completing the "First Battle" in Story Mode. Griffith fights with a fast rapier, performing incredibly quick and penetrating combos against opponents. He depends on landing numerous hits on his foe, and increasing Griffith's technique will further increase his speed of rapid shots.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 mx-auto">
+                                    <h4>Casca</h4>
+                                    <p data-section="seccion3" data-value="casca" class="border-top border-secondary-subtle">Unlock Casca by completing the "First Battle" in Story Mode. Casca's fighting style incorporates wrestling-style kicks along with her swordsmanship. Though her style may not seem as strong as the main characters in the series, when fully unlocked she is an incredibly formidable opponent.</p>
+                                </div>
+                                <div class="col-md-3 mx-auto">
+                                    <img src="img/caska.png" alt="Casca">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <img class="img-fluid px-0 separador4" src="img/linea_negra.png" alt="linea_negra">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 mx-auto px-0 footer">
+                        <div class="lista border-top border-bottom border-secondary-subtle">
+                            <div class="row">
+                                <div class="col-md-6 mx-auto py-5">
+                                    <p data-section="footer" data-value="desc">Berserk and the Band of the Hawk, known in Japan as Berserk Musou, is a Musō game developed by Omega Force and published by Koei Tecmo for PlayStation 3, PlayStation 4, PlayStation Vita and Microsoft Windows.</p>
+                                </div>
+                                <div class="col-md-3 py-5">
+                                    <ul>
+                                        <h5 data-section="footer" data-value="tp">Terms and Policies</h5>
+                                        <li data-section="footer" data-value="tc">Terms and Conditions</li>
+                                        <li data-section="footer" data-value="pp">Privacy policies</li>
+                                        <li data-section="footer" data-value="cp">Cookies Policies</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2 py-5">
+                                    <ul>
+                                        <li data-section="footer" data-value="cata">Catalogue</li>
+                                        <li data-section="footer" data-value="prox">Soon</li>
+                                        <li data-section="footer" data-value="cont">Contact</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="portables2">
+                                        <img class="img-fluid" src="img/play.png" alt="">
+                                        <h4>PS5. | PS4.</h4>
+                                        <img class="img-fluid" src="img/xbox.png" alt="">
+                                        <h4>XBOX SERIES X | S.</h4>
+                                        <h3>PC</h3>
+                                        <img class="img-fluid" src="img/switch.png" alt="">
+                                        <div class="col-md-1"><p>NINTENDO SWITCH</p></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-1 mx-auto">
+                                    <ul>
+                                        <div class="redes">
+                                            <li><img class="twitter" src="img/Twitter.png" alt="Twitter"></li>
+                                            <li><img class="instagram" src="img/instagram.png" alt="Instagram"></li>
+                                            <li><img class="discord" src="img/discord.png" alt="Discord"></li>
+                                            <li><img class="facebook"  src="img/facebook.png" alt="Facebook"></li>
+                                            <li><img class="reddit" src="img/reddit.png" alt="Reddit"></li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

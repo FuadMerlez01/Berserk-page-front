@@ -1,0 +1,36 @@
+{
+    "navegador": {
+        "inicio": "HOME",
+        "noticias": "NEWS",
+        "catalogo": "CATALOGUE",
+        "nosotros": "ABOUT US"
+    },
+    "banner": {
+        "disponible": "Available now on all platforms!",
+        "boton": "Buy now!"
+    },
+    "seccion1": {
+        "globo1": "IS IT LIKE THE HAND OF GOD HOVERING ABOVE?",
+        "globo2": "IS THIS WORLD, HUMAN KIND'S DESTINY, CONTROLLED BY SOME TRANSCENDENT ENTITY OR LAW……?",
+        "globo3": "AT LEAST, IT'S TRUE THAT MAN HAS NO CONTROL, EVEN OVER HIS OWN WILL."
+    },
+    "seccion2": {
+        "maldicion": "He who bears the egg of the conquering king will gain all that he desires at the cost of his body and blood"
+    },
+    "seccion3": {
+        "gust": "Guts is the main protagonist of Berserk and the Band of the Hawk and who you will play as for the majority of Story Mode. He initially wields a large sword, but eventually moves on to wielding an even larger sword, the Dragonslayer, once he becomes the Black Swordsman.",
+        "griffith": "Unlock Griffith by completing the First Battle in Story Mode. Griffith fights with a fast rapier, performing incredibly quick and penetrating combos against opponents. He depends on landing numerous hits on his foe, and increasing Griffith's technique will further increase his speed of rapid shots.",
+        "casca": "Unlock Casca by completing the First Battle in Story Mode. Casca's fighting style incorporates wrestling-style kicks along with her swordsmanship. Though her style may not seem as strong as the main characters in the series, when fully unlocked she is an incredibly formidable opponent."
+    },
+    "footer": {
+        "desc": "Berserk and the Band of the Hawk, known in Japan as Berserk Musou, is a Musō game developed by Omega Force and published by Koei Tecmo for PlayStation 3, PlayStation 4, PlayStation Vita and Microsoft Windows.",
+        "tp": "Terms and Policies",
+        "tc": "Terms and Conditions",
+        "pp": "Privacy policies",
+        "cp": "Cookies Policies",
+        "cata": "Catalogue",
+        "prox": "Soon",
+        "cont": "Contact"
+    }
+}
+

@@ -1,0 +1,36 @@
+{
+    "navegador": {
+        "inicio": "INICIO",
+        "noticias": "NOTICIAS",
+        "catalogo": "CATÁLOGO",
+        "nosotros": "NOSOTROS"
+    },
+    "banner": {
+        "disponible": "¡Ya disponible en todas las plataformas!",
+        "boton": "Comprar ahora!"
+    },
+    "seccion1": {
+        "globo1": "¿ES COMO LA MANO DE DIOS FLOTANDO ARRIBA?",
+        "globo2": "¿ESTÁ ESTE MUNDO, EL DESTINO DE LA HUMANIDAD CONTROLADO POR ALGUNA ENTIDAD O LEY TRASCENDENTAL……?",
+        "globo3": "AL MENOS, ES VERDAD QUE EL HOMBRE NO TIENE CONTROL, NI siquiera SOBRE SU PROPIA VOLUNTAD."
+    },
+    "seccion2": {
+        "maldicion": "Aquel que porte el huevo del rey conquistador, conseguirá todo lo que quiera a costa de su cuerpo y sangre"
+    },
+    "seccion3": {
+        "gust": "Guts es el protagonista principal de Berserk y la Banda del Halcón y con quién jugarás durante la mayor parte del Modo Historia. Inicialmente usa una espada grande, pero eventualmente pasa a usar una espada aún más grande, la Dragonslayer, una vez que se convierte en El espadachín negro.",
+        "griffith": "Desbloquea a Griffith completando la Primera batalla en el modo Historia. Griffith lucha con un sable rápido, realizando combos increíblemente rápidos y penetrantes contra los oponentes. Depende de asestar numerosos golpes a su enemigo, y aumentar la técnica de Griffith aumentará aún más su velocidad de disparos rápidos.",
+        "casca": "Desbloquea a Casca completando la Primera batalla en el modo Historia. El estilo de lucha de Casca incorpora patadas de estilo de lucha junto con su habilidad con la espada. Aunque su estilo puede no parecer tan fuerte como los personajes principales de la serie, cuando se desbloquea completamente es un oponente increíblemente formidable."
+    },
+    "footer": {
+        "desc": "Berserk and the Band of the Hawk, conocido en Japón como Berserk Musou, es un juego de Musō desarrollado por Omega Force y publicado por Koei Tecmo para PlayStation 3, PlayStation 4, PlayStation Vita y Microsoft Windows.",
+        "tp": "Términos y Políticas",
+        "tc": "Términos y Condiciones",
+        "pp": "Politicas de privacidad",
+        "pc": "Politicas de Cookies",
+        "cata": "Catalogo",
+        "prox": "Proximamente",
+        "cont": "Contacto"
+    }
+}
+    

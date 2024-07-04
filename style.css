@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.logo{
+    max-width: 30px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header{
+    position: relative;
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer{
+    color: white;
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer{
+    background-image: url('img/footer.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 20%;
+    position: absolute;
+    top: 1350%;
+    padding-bottom: 10%;
+    left: 0;
+}
+
+.card {
+    height: 200px;
+    width: 120px;
+    background-color: black;
+    border-radius: 0.75rem;
+    position: relative;
+    color: white;
+    padding: 1rem;
+    --angle: 45deg;
+    background: linear-gradient(var(--angle), rgb(25,25,25), rgb(50,50,50));
+    
+    img{
+        width: 30px;
+    }
+    
+    .modal-body img h4{
+        display: flex;
+    }
+
+    h4,p {
+      display: block;
+      color: transparent;
+      background: linear-gradient(var(--angle), black 10%, transparent 10%, transparent 90%, white 90%), linear-gradient(var(--angle), black, white);    
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+    
+    &::after {
+      content: "";
+      position: absolute;
+      inset: -0.25rem;
+      background: linear-gradient(var(--angle), black, white);
+      z-index: -1;
+      border-radius: inherit;
+    }
+  }
+
+ul {
+    list-style: none;
+}
+
+.redes{
+    display: flex;
+}
+
+.lista{
+    display: flex;
+}
+
+.seccion01{
+    position: absolute;
+    top: 150px !important; 
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    text-align: center !important;
+}
+
+.seccion01 h2{
+    color: white;
+}
+
+.seccion01 h4{
+    color: white;
+}
+
+.portables2{
+    padding-left: 25%;
+    padding-bottom: 10%;
+    display: flex;
+}
+
+.portables2 img{
+    width: 30px;
+    height: 30px;
+}
+
+.portables{
+    display: flex;
+    padding-left: 25%;
+    padding-top: 4%;
+}
+
+.portables2 h3{
+    padding-left: 5px;
+    width: 40px;
+    height: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.portables2 h4{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.portables2 p{
+    padding-left: 5px;
+    font-size: 11px;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.portables img{
+    padding-left: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.portables h3{
+    padding-left: 5px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.portables h4{
+    padding-left: 5px;
+    color: white;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.portables p{
+    padding-left: 5px;
+    font-size: 11px;
+    color: white;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    background: linear-gradient(45deg, #ff0000, #000, #000, #ff0000);
+    background-size: 1300%;
+    animation: gradientAnimation 10s ease infinite;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Agdasima", sans-serif;
+    font-size: 2em;
+}
+
+.seccion01 h2{
+    color: white;
+    font-family: "Balthazar", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+    1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+
+.banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.mano{
+    position: absolute;
+    top: 120%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.navbar {
+    position: fixed; /* Fijamos la barra de navegación en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Aseguramos que esté sobre otros elementos */
+    background: linear-gradient(to top, #ffffff00 0%, #000 100%);
+    transition: background-color 0.3s ease; /* Transición suave de color de fondo */
+}
+
+.separador{
+    width: 100px;
+    position: absolute;
+    top: 80%;
+    z-index: 3;
+}
+
+.separador2{
+    width: 100px;
+    position: absolute;
+    top: 395%;
+    z-index: 3;
+}
+
+.separador3{
+    width: 100px;
+    position: absolute;
+    top: 900%;
+    z-index: 3;
+}
+
+.separador4{
+    width: 100px;
+    position: absolute;
+    top: 1300%;
+    z-index: 3;
+}
+
+/* Estilos base para las imágenes */
+img.twitter, img.instagram, img.discord, img.facebook, img.reddit, img.translate {
+    max-width: 30px;
+    height: auto;
+    transition: filter 1.5s ease; /* Transición suave para el cambio de color */
+}
+
+/* Cambiar el color a rojo al pasar el mouse */
+img.twitter:hover, img.instagram:hover, img.discord:hover, img.facebook:hover, img.reddit:hover {
+    filter: grayscale(100%) brightness(0) invert(1) sepia(1) saturate(10) hue-rotate(-50deg);
+}
+
+
+.textos{
+    position: absolute;
+    top: 40%;
+}
+
+.globo1{
+    text-align: center;
+    color: white;
+    margin-left: 20%;
+}
+
+.globo2{
+    text-align: center;
+    color: white;
+    padding-top: 20%;
+    margin-left: 10%;
+}
+
+.globo3{
+    text-align: center;
+    color: black;
+    padding-top: 20%;
+    margin-left: 20%;
+}
+
+.video{
+    position: absolute;
+    max-width: 100%;
+    height: 100%;
+    top: 470%;
+    z-index: 3;
+}
+
+.embed-container iframe,
+    .embed-container object,
+    .embed-container embed { 
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .atardecer{
+        position: absolute;
+        top: 600%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .huevo{
+        position: absolute;
+        top: 7%;
+    }
+
+    .huevo2 h4{
+        padding-left: 20%;
+    }
+
+    .huevo2 img{
+        position: absolute;
+        padding-left: 35%;
+    }
+
+
+
+    img.behelit02, img.behelit03, img.behelit04 {
+        opacity: 0;
+        transition: opacity 1.0s ease-in-out; /* Añade una transición suave */
+    }
+    
+    /* Muestra las imágenes cuando se pasa el cursor sobre una de ellas */
+    img.behelit02:hover, img.behelit03:hover, img.behelit04:hover,
+    img.behelit02:hover ~ img.behelit03, img.behelit02:hover ~ img.behelit04,
+    img.behelit03:hover ~ img.behelit02, img.behelit03:hover ~ img.behelit04,
+    img.behelit04:hover ~ img.behelit02, img.behelit04:hover ~ img.behelit03 {
+        opacity: 1;
+    }
+
+    .maldicion{
+        text-align: center;
+        color: white;
+        font-family: "Balthazar", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+        1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+        padding-top: 100%;
+    }
+
+    .imagenes{
+        position: absolute;
+        top: 730%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo2 img{
+        position: absolute;
+        width: 100px;
+        left: 45%;
+    }
+    
+    .galeria{
+        margin: 10px 50px;
+        padding-top: 15%;
+    }
+
+    .galeria img{
+        width: 300px;
+        padding: 5px;
+        filter: grayscale(100%);
+    }
+
+    .galeria img:hover{
+        filter: grayscale(0);
+        transform: scale(1.1);
+    }
+
+    .personajes{
+        position: absolute;
+        top: 950%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .principales{
+        font-size: 25px;
+        padding-top: 20%;
+        color: white;
+        position: absolute;
+        font-family: "Baskervville", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .principales img{
+        width: 450px;
+    }
+
+
+
+/* Estilos para la barra de navegación */
+.navbar, 
+.navbar a, 
+.navbar .navbar-nav .nav-link, 
+.navbar .navbar-brand, 
+.navbar .navbar-nav .active > .nav-link, 
+.navbar .navbar-toggler {
+    color: white !important; /* Cambia el color del texto a blanco */
+}
+
+/* Asegúrate de que los enlaces no se subrayen y tengan un color blanco */
+.navbar a:hover, 
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(255, 0, 0) !important;
+    text-decoration: none; /* Evita el subrayado */
+}
+
+/* Estilos para la barra de navegación */
+.navbar, 
+.navbar a, 
+.navbar .navbar-nav .nav-link, 
+.navbar .navbar-brand, 
+.navbar .navbar-nav .active > .nav-link, 
+.navbar .navbar-toggler {
+    color: white !important; /* Cambia el color del texto a blanco */
+}
+
+/* Asegúrate de que los enlaces no se subrayen y tengan un color blanco */
+.navbar a:hover, 
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(255, 0, 0) !important;
+    text-decoration: none; /* Evita el subrayado */
+}
