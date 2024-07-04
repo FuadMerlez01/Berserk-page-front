@@ -1,6 +1,10 @@
 const idiomasElements = document.getElementById("idiomas");
 const textsToChange = document.querySelectorAll("[data-section]");
-const card = document.querySelector(".card")
+const card = document.querySelector(".card");
+const button = document.querySelector('[data-button]'), alert = document.querySelector('[data-alert]');
+button.addEventListener('click', () => {
+    alert.style.display = 'block';
+});
 
 function calculateAngle(x1, y1, x2, y2) {
   const dy = y2 - y1;
@@ -49,8 +53,3 @@ idiomasElements.addEventListener("click", (e) => {
         changeLanguage(language);
     }
 });
-
-
-
-
-
